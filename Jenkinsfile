@@ -35,7 +35,7 @@ private Object arty
 // Primary artifactory locations
 public static final String ARTY_HOST = "artifactory.viasat.com:8091"
 private static final String ARTIFACTORY_SERVER_ID = "1869792217@1444083315215" 
-public static final String ARTY_PREFIX = "${ARTY_HOST}/twinpeaks-ifcp-gen/system_config/${env.BRANCH_NAME.toLowerCase()}"
+public static final String ARTY_PREFIX = "${ARTY_HOST}/twinpeaks-ifcp-gen/system_config/${env.BRANCH_NAME}"
 private static final String ARTIFACTORY_TEST_PATH = "devel/pipeline-test-mode"
 private static final String PROD_MGMT_IP = "192.168.20.1"
 private static final String COMPONENT_VERSIONS_FILE = "config/CONFIG_VERSIONS"
