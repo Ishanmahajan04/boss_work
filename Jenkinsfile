@@ -54,7 +54,7 @@ def lib_agg // Library aggregator
 def osc_release_version // Release_version specified in the system_config_version.mk 
 def osc_full_version // Release version + build number
 def is_major_branch = false // If master or release branch - True
-def version_lib = lagg.libs.mrp.version
+//def version_lib = lagg.libs.mrp.version
 Set<Object> configs = [] as Set<Object>
 
 /* 
