@@ -566,7 +566,7 @@ def build() {
         else {
             script.println("Build failure: ${stash_name}")
         }
-    }
+    
     return success
 }
     
