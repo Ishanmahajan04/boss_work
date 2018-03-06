@@ -111,7 +111,7 @@ node(build_node) {
 	            osc_full_version = "${osc_release_number}.${build_number}"
 	            currentBuild.displayName = "${osc_full_version} (#${currentBuild.number})"
 
-	            if (env.BRANCH_NAME == "master" || env.BRANCH_NAME.startsWith("release") {
+	            if (env.BRANCH_NAME == "master" || env.BRANCH_NAME.startsWith("release")) {
 	                is_major_branch = true
 	            }
             } catch (Exception e) {
